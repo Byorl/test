@@ -2251,6 +2251,7 @@ function DiscordLib:Window(text)
 				Icon.Position = UDim2.new(0, 8, 0, 8)
 				Icon.Size = UDim2.new(0, 13, 0, 13)
 			
+				-- Update appearance on click
 				Toggle.MouseButton1Click:Connect(function()
 					toggled = not toggled
 					updateToggleAppearance()  -- Update toggle appearance
@@ -2259,7 +2260,14 @@ function DiscordLib:Window(text)
 				
 				ChannelHolder.CanvasSize = UDim2.new(0, 0, 0, ChannelHolderLayout.AbsoluteContentSize.Y)
 			end
-		
+			
+
+
+
+
+
+
+			
 			
 			function ChannelContent:Slider(text, min, max, start, callback)
 				local SliderFunc = {}
