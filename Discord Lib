@@ -2206,7 +2206,7 @@ function DiscordLib:Window(text)
 				Toggle.BorderSizePixel = 0
 				Toggle.Position = UDim2.new(0.261979163, 0, 0.190789461, 0)
 				Toggle.Size = UDim2.new(0, 401, 0, 30)
-				Toggle.AutoButtonColor = false
+				Toggle.AutoButtonColor = default
 				Toggle.Font = Enum.Font.Gotham
 				Toggle.Text = ""
 				Toggle.TextColor3 = Color3.fromRGB(255, 255, 255)
